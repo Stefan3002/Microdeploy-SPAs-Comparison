@@ -1,0 +1,22 @@
+<div class="home-page-container">
+  <div class="landing">
+    <div class="text">
+      <h1 class="title-container">Shop-n-all</h1>
+      <h2 class="sub-title-container">Your fashion expert!</h2>
+      <div class="title-details">
+        <p>All the new additions can be found here, on Shop-n-All. <br /> Start buying today!</p>
+      </div>
+      <div class="call-to-action-container">
+        <a class="button-landing-page" routerLink="/shop">
+          <app-button text='Shop now.' color='whitesmoke' fontSize='1.5em'/>
+        </a>
+        <i class="mouse-icon fa-3x fa fa-solid fa-computer-mouse"></i>
+      </div>
+    </div>
+    <div class="hero"></div>
+  </div>
+
+  <!-- Parallax Component -->
+  <app-parallax [data]="parallaxImgs"></app-parallax>
+
+</div>

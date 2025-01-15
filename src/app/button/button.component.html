@@ -1,0 +1,4 @@
+<button class="button-container" (click)="clickHandler()" [ngStyle]="{'color': color, 'border': '1px solid ' + color, 'font-size': fontSize}">
+  <div *ngIf="dividers" class="divider-top"></div>
+  {{ text }}
+</button>

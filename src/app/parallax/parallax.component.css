@@ -1,0 +1,38 @@
+.parallax {
+  filter: grayscale(1);
+  transition: 0.2s;
+  background-attachment: fixed;
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 4em;
+  overflow: hidden;
+}
+.parallax .content-container p {
+  transition: all 0.3s;
+}
+.parallax:hover {
+  filter: grayscale(0);
+  transition: all 0.2s;
+}
+.parallax:hover > .content-container p {
+  transition: all 0.3s;
+  transform: scale(1.3);
+}
+.parallax .content-container {
+  width: 400px;
+  border: 5px solid whitesmoke;
+  padding: 0.5em;
+  text-align: center;
+  line-height: 0;
+}
+.parallax .content-container img {
+  width: 100px;
+}
+
+/*# sourceMappingURL=parallax.component.css.map */

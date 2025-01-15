@@ -1,0 +1,9 @@
+<div *ngFor="let item of data; let i = index">
+  <a [routerLink]="['/shop', item.text]" [attr.key]="'parallax-' + i">
+    <div class="parallax" [ngStyle]="{'background-image': 'url(' + item.img + ')', 'background-position': item.position}">
+      <div class="content-container">
+        <p>{{ item.text }}</p>
+      </div>
+    </div>
+  </a>
+</div>

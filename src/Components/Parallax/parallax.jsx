@@ -16,7 +16,7 @@ const Parallax = ({data}) => {
                     })
                 }
             </>
-
+    // Commit comment
 
     )
 }

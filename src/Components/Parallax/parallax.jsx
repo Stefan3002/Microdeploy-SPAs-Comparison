@@ -13,7 +13,7 @@ const Parallax = ({data}) => {
                 }
             })
         }, {threshold: .05})
-
+        // commit message
         if(ref.current)
             ref.current.forEach(element => observer.observe(element))
 
